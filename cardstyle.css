@@ -1,0 +1,391 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #FAFAFA;
+}
+
+.head {
+  width: 311px;
+  height: 161px;
+  margin-top: 85px;
+}
+
+.head1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  height: 36px;
+  margin-left: 7px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.head2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.17px;
+  height: 36px;
+  margin-top: 1px;
+  margin-left: 8px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.head3 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  width: 288px;
+  height: 75px;
+  opacity: 0.5;
+  margin-top: 13px;
+  color: #4D4F62;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 76px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 222px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  background-color: white;
+}
+
+.lightbluehead {
+  width: 311px;
+  height: 3.55px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #44D3D2;
+}
+
+.supervisor {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 23.5px;
+  margin-left: 28px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.para1 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  margin-top: 1px;
+  margin-left: 29px;
+  opacity: 0.5;
+  color: #4D4F62;
+}
+
+.mob-search {
+  width: 57px;
+  height: 57px;
+  margin-top: 33px;
+  margin-left: 226px;
+}
+
+.midcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 222px;
+  border-radius: 8px;
+  margin-top: 25px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  background-color: white;
+}
+
+.redhead {
+  width: 311px;
+  height: 3.55px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #EA5454;
+}
+
+.team {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  height: 30px;
+  margin-top: 27px;
+  margin-left: 28px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.para2 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  margin-top: 1px;
+  margin-left: 29px;
+  opacity: 0.5;
+  color: #4D4F62;
+}
+
+.mob-home {
+  width: 57px;
+  height: 57px;
+  margin-top: 33px;
+  margin-left: 226px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 222px;
+  border-radius: 8px;
+  margin-top: 25px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  background-color: white;
+}
+
+.yellowhead {
+  width: 311px;
+  height: 3.55px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #FCAE4A;
+}
+
+.karma {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 27px;
+  margin-left: 29px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.para3 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  width: 254px;
+  height: 46px;
+  margin-top: 1px;
+  margin-left: 29px;
+  opacity: 0.5;
+  color: #4D4F62;
+}
+
+.mob-idea {
+  width: 57px;
+  height: 57px;
+  margin-top: 33px;
+  margin-left: 226px;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 222px;
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-bottom: 78px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  background-color: white;
+}
+
+.bluehead {
+  width: 311px;
+  height: 3.55px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #549EF2;
+}
+
+.calc {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 27px;
+  margin-left: 29px;
+  margin-bottom: 0;
+  color: #4D4F62;
+}
+
+.para4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  width: 254px;
+  height: 46px;
+  margin-top: 1px;
+  margin-left: 29px;
+  opacity: 0.5;
+  color: #4D4F62;
+}
+
+.mob-soft {
+  width: 57px;
+  height: 57px;
+  margin-top: 33px;
+  margin-left: 226px;
+}
+
+@media (min-width: 1440px) {
+  .head {
+    width: 540px;
+    height: 168px;
+    margin-top: 80px;
+  }
+
+  .head1 {
+    font-size: 36px;
+    font-weight: 400px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    height: 54px;
+    margin-top: 0;
+    margin-left: 48px;
+  }
+
+  .head2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    width: 441px;
+    height: 54px;
+    margin-top: 2px;
+    margin-left: 50px;
+  }
+
+  .head3 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    width: 540px;
+    height: 50px;
+    margin-top: 13px;
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 30px;
+    width: 1110px;
+    height: 530px;
+    margin-bottom: 80px;
+  }
+
+  .card1 {
+    width: 350px;
+    height: 250px;
+    margin-top: 140px;
+    margin-left: 0;
+  }
+
+  .lightbluehead {
+    width: 350px;
+    height: 4px;
+  }
+
+  .para1 {
+    width: 286px;
+  }
+
+  .mob-search {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+  }
+
+  .card2 {
+    width: 350px;
+    height: 250px;
+    margin-top: 0;
+  }
+
+  .redhead {
+    width: 350px;
+    height: 4px;
+  }
+
+  .para2 {
+    width: 286px;
+  }
+
+  .mob-home {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+  }
+
+  .card3 {
+    width: 350px;
+    height: 250px;
+  }
+
+  .yellowhead {
+    width: 350px;
+    height: 4px;
+  }
+
+  .para3 {
+    width: 286px;
+  }
+
+  .mob-idea {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+  }
+
+  .card4 {
+    width: 350px;
+    height: 250px;
+    margin-top: 140px;
+  }
+
+  .bluehead {
+    width: 350px;
+    height: 4px;
+  }
+
+  .para4 {
+    width: 286px;
+  }
+
+  .mob-soft {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+    margin-right: 0;
+  }
+}
